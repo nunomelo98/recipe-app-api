@@ -37,9 +37,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'core',
+    'core',  #after creating our django startapp core we add it here
     'rest_framework',
     'drf_spectacular',
+    'user',  #after creating our django startapp user we add it here
 ]
 
 MIDDLEWARE = [
