@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',  #after creating our django startapp core we add it here
     'rest_framework',
+    'rest_framework.authtoken',
     'drf_spectacular',
     'user',  #after creating our django startapp user we add it here
 ]
